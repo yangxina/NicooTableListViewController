@@ -31,15 +31,17 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NicooTableListViewController/Classes/**/*'
-  
-
-s.resource_bundles = {
-     'NicooTableListViewController' => ['NicooTableListViewController/Assets/*.png']
-}
-
+  s.swift_version = '4.2'
+  s.resource_bundles = {
+      'NicooTableListViewController' => ['NicooTableListViewController/Assets/*.png']
+  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-s.dependency 'MJRefresh' , '~> 3.1.0'
+  s.dependency 'MJRefresh'
+  
+  s.dependency 'SnapKit'
 
-s.dependency 'SnapKit'    , '~> 4.0'
+
+
+ 
 end
