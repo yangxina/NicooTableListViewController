@@ -157,9 +157,9 @@ public extension UIScrollView {
     /// UITableVIew得到提示数据数量的Label的宽度
     fileprivate func getStatisticsWidth() -> CGFloat {
         if let text = self.statisticsLabel?.text {
-            var attributes = [NSAttributedStringKey: Any]()
+            var attributes = [NSAttributedString.Key: Any]()
             
-            attributes[NSAttributedStringKey.font] = statisticsLabel!.font
+            attributes[NSAttributedString.Key.font] = statisticsLabel!.font
             //let attributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: self.statisticsLabel!.font]
             let string: NSString = NSString(cString: text.cString(using: String.Encoding.utf8)!, encoding: String.Encoding.utf8.rawValue)!
             let size = string.boundingRect(with: CGSize(width: 300, height: 20), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: attributes, context: nil)

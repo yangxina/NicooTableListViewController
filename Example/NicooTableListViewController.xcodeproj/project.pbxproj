@@ -15,7 +15,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7977A84725C575DC3E9C33D2 /* Pods_NicooTableListViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D598EA3BFE2C4C577D0FE85F /* Pods_NicooTableListViewController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +42,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NicooTableListViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicooTableListViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FAD1E44CFD6E3C3C4712E2D /* Pods_NicooTableListViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NicooTableListViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B70AEB62F3A797EA5E51E8 /* Pods-NicooTableListViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NicooTableListViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NicooTableListViewController_Example/Pods-NicooTableListViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F2A0C2EF6DEA497BE783054 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NicooTableListViewController */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				9E64ADACD1E4773107813B72 /* Pods */,
 				AA8D3F744431C5A982BB8E96 /* Frameworks */,
@@ -114,23 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -343,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

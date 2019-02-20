@@ -79,7 +79,7 @@ open class MutableButtonsView: UIView {
     
     // MARK: - Public funcs
     
-    open func updateButtonTitle(title: String, at index: Int, for state: UIControlState) {
+    open func updateButtonTitle(title: String, at index: Int, for state: UIControl.State) {
         guard let buttons = buttons, buttons.count > 0 else {
             return
         }
@@ -89,7 +89,7 @@ open class MutableButtonsView: UIView {
         buttons[index].setTitle(title, for: state)
     }
     
-    open func updateButtonTitleColor(color: UIColor, at index: Int, for state: UIControlState) {
+    open func updateButtonTitleColor(color: UIColor, at index: Int, for state: UIControl.State) {
         guard let buttons = buttons, buttons.count > 0 else {
             return
         }
